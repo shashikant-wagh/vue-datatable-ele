@@ -19,6 +19,7 @@ VueDatatableEle is lightweight and highly configurable which makes its useful in
 * Lightweight.
 * No jQuery or other dependencies.
 * Highly configurable.
+* Easily to hooked in on Bootstrap.
 
 ## Installation <a name = "install"></a>
 ```
