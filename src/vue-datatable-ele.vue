@@ -17,7 +17,7 @@
 
                     <th
                         v-for="column in columns"
-                        :class="column.toSlug()"
+                        :class="getColumnClass(column)"
                     >
                         {{ column }}
                     </th>
@@ -53,7 +53,7 @@
 
 <script>
 
-    import {sanitize, isEqualsTo} from './helper.js';
+    import {toSlug, sanitize, isEqualsTo} from './helper.js';
     import PaginateEle from './PaginateEle';
 
     export default {
@@ -102,6 +102,10 @@
         },
 
         methods: {
+            getColumnClass(column) {
+                return toSlug(column);
+            },
+
             showColumn(column) {
                 return this.columns.includes(column);
             },
