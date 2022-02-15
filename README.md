@@ -91,6 +91,8 @@ import VueDatatableEle from 'vue-datatable-ele'
 
 
 <script>
+    import VueDatatableEle from 'vue-datatable-ele'
+
     export default {
         components: {VueDatatableEle},
 
