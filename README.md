@@ -57,7 +57,6 @@ import VueDatatableEle from 'vue-datatable-ele'
         :actions="actions"
         :paginate="paginate"
         :tableClass="'table table-bordered table-responsive'"
-        @create="show.create = true"
         @pageChanged="api.page = $event"
     >
         <template v-slot:table-header>
@@ -92,7 +91,6 @@ import VueDatatableEle from 'vue-datatable-ele'
 
 
 <script>
-
     export default {
         components: {VueDatatableEle},
 
