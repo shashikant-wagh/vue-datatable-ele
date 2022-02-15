@@ -45,6 +45,7 @@
     </table>
 
     <paginate-ele
+        v-if="!withoutPagination"
         :meta="paginate"
         @pageChanged="$emit('pageChanged', $event)"
     />
@@ -65,6 +66,7 @@
             paginate: Object,
             modelValue: Array,
             tableClass: String,
+            withoutPagination: Boolean,
         },
 
         components: {
@@ -84,6 +86,7 @@
                         this.records = sanitize(newValue);
                     }
                 },
+                immediate: true,
             },
 
             records: {
