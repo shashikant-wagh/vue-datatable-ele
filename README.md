@@ -17,10 +17,10 @@ VueDatatableEle is lightweight and highly configurable which makes its useful in
 
 ## Features <a name = "features"></a>
 * Lightweight.
-* No jQuery or other dependencies.
 * Highly configurable.
 * In built pagination.
 * Easily to hooked in on Bootstrap.
+* No jQuery or other dependencies.
 
 ## Installation <a name = "install"></a>
 ```
