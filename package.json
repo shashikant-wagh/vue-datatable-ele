@@ -1,6 +1,6 @@
 {
   "name": "vue-datatable-ele",
-  "version": "3.0.4",
+  "version": "1.0.7",
   "description": "",
   "main": "dist/vue-datatable-ele.ssr.js",
   "browser": "dist/vue-datatable-ele.esm.js",

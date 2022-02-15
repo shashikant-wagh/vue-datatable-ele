@@ -41,6 +41,7 @@ import VueDatatableEle from 'vue-datatable-ele'
 | actions             | Object        | Array of table actions if any, check the example below for the defination.|
 | paginate            | Object        | Data required for pagination, check the example below for the defination.|
 | tableClass          | String        | Custom table class            |
+| withoutPagination   | Boolean       | Removes pagination from table |
 
 ## Events <a name = "events"></a>
 
