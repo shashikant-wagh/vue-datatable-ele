@@ -7,6 +7,7 @@
 - [Usage](#usage)
 - [Configuration](#configuration)
 - [Events](#events)
+- [Slots](#slots)
 - [Example](#example)
 
 ## Introduction <a name = "introduction"></a>
@@ -48,6 +49,14 @@ import VueDatatableEle from 'vue-datatable-ele'
 | Event               | Description                   |
 |---------------------|------------------------------|
 | pageChanged         | Event occer when click on pagination links  |
+
+## Slots <a name = "slots"></a>
+
+| Name                | Data                   | Default Action                           | Description                             |
+|---------------------|------------------------|------------------------------------------|-----------------------------------------|
+| table-header        |                        |                                          | Opens on top of the table.    |
+| table-head          | showColumn, showAction | Renders table heading from columns prop. | Opens table heading <thead>.  |
+| table-body          |                        |                                          | Opens table body <tbody>.     |
 
 ## Example <a name = "example"></a>
 ```
