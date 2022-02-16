@@ -53,8 +53,8 @@ import VueDatatableEle from 'vue-datatable-ele'
 
 ## Slots <a name = "slots"></a>
 
-| Name                | Data                   | Default Action                           | Description                             |
-|---------------------|------------------------|------------------------------------------|-----------------------------------------|
+| Name                | Data                   | Default Action                           | Description                   |
+|---------------------|------------------------|------------------------------------------|-------------------------------|
 | table-header        |                        |                                          | Opens on top of the table.    |
 | table-head          | showColumn, showAction | Renders table heading from columns prop. | Opens table heading <thead>.  |
 | table-body          |                        |                                          | Opens table body <tbody>.     |
