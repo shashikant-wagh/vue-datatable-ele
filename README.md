@@ -5,9 +5,10 @@
 - [Features](#features)
 - [Installation](#install)
 - [Usage](#usage)
-- [Configuration](#configuration)
-- [Events](#events)
-- [Slots](#slots)
+- Configuration
+  - [Props](#props)
+  - [Events](#events)
+  - [Slots](#slots)
 - [Example](#example)
 
 ## Introduction <a name = "introduction"></a>
@@ -33,7 +34,7 @@ npm install vue-datatable-ele
 import VueDatatableEle from 'vue-datatable-ele'
 ```
 
-## Configuration <a name = "configuration"></a>
+## Props <a name = "props"></a>
 
 | Prop                | Type          | Description                   |
 |---------------------|---------------|-------------------------------|
